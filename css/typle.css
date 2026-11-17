@@ -1,0 +1,254 @@
+/* =========================
+   1. CÀI ĐẶT CHUNG
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    color: #24344d;
+    line-height: 1.7;
+}
+
+/* =========================
+   2. THANH ĐIỀU HƯỚNG
+========================= */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background-color: #082c59;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header h2 {
+    color: white;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #55c5ff;
+}
+
+/* =========================
+   3. TRANG CHỦ
+========================= */
+
+#home {
+    min-height: 85vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 10%;
+    gap: 50px;
+    background: linear-gradient(120deg, #ffffff, #e5effb);
+}
+
+.intro {
+    max-width: 600px;
+}
+
+.intro p {
+    font-size: 18px;
+    color: #52647c;
+}
+
+.intro h1 {
+    font-size: 45px;
+    color: #082c59;
+    margin: 15px 0;
+}
+
+.intro h3 {
+    font-size: 23px;
+    color: #1687c9;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 28px;
+    background-color: #082c59;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #1687c9;
+    transform: translateY(-3px);
+}
+
+/* =========================
+   4. ẢNH ĐẠI DIỆN
+========================= */
+
+.avatar img {
+    width: 300px;
+    height: 380px;
+    object-fit: cover;
+    object-position: center 25%;
+    border-radius: 20px;
+    border: 5px solid white;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* =========================
+   5. CÁC PHẦN NỘI DUNG
+========================= */
+
+section:not(#home) {
+    padding: 65px 10%;
+}
+
+section h2 {
+    color: #082c59;
+    font-size: 28px;
+    margin-bottom: 30px;
+    border-left: 5px solid #1687c9;
+    padding-left: 15px;
+}
+
+/* GIỚI THIỆU */
+
+#about p {
+    font-size: 17px;
+    line-height: 2;
+    text-align: justify;
+}
+
+/* HỌC VẤN */
+
+#education {
+    background-color: #eaf1fa;
+}
+
+/* KINH NGHIỆM */
+
+#experience {
+    background-color: white;
+}
+
+/* KỸ NĂNG */
+
+#skills {
+    background-color: #eaf1fa;
+}
+
+#skills ul {
+    padding-left: 25px;
+}
+
+#skills li {
+    margin-bottom: 12px;
+    font-size: 17px;
+}
+
+/* =========================
+   6. KHUNG NỘI DUNG
+========================= */
+
+.project {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    border-left: 5px solid #1687c9;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    color: #1687c9;
+    margin-bottom: 15px;
+}
+
+/* =========================
+   7. LIÊN HỆ
+========================= */
+
+#contact {
+    background-color: #ffffff;
+}
+
+#contact p {
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+/* =========================
+   8. CHÂN TRANG
+========================= */
+
+footer {
+    background-color: #082c59;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* =========================
+   9. RESPONSIVE ĐIỆN THOẠI
+========================= */
+
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    #home {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .intro h1 {
+        font-size: 30px;
+    }
+
+    .avatar img {
+        width: 200px;
+        height: 200px;
+    }
+
+    section:not(#home) {
+        padding: 45px 7%;
+    }
+}
