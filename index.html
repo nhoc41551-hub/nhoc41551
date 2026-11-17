@@ -1,22 +1,17 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nguyen Thai Hoc | IT Student & Aspiring Software Engineer</title>
-    <meta name="description"
-        content="Personal Portfolio & CV of Nguyen Thai Hoc - Information Technology student at Hanoi Polytechnic College. Aspiring Software Developer specializing in Web & Java development.">
-    <meta name="keywords"
-        content="Nguyen Thai Hoc, Portfolio, Hanoi Polytechnic College, IT Student, Software Developer, Java, MySQL, Web Developer">
+    <meta name="description" content="Personal Portfolio & CV of Nguyen Thai Hoc - Information Technology student at Hanoi Polytechnic College (322 My Dinh, Hanoi). Aspiring Software Developer specializing in Web & Java development.">
+    <meta name="keywords" content="Nguyen Thai Hoc, Portfolio, Hanoi Polytechnic College, IT Student, Software Developer, Java, MySQL, Web Developer, 322 My Dinh">
     <meta name="author" content="Nguyen Thai Hoc">
 
     <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -62,34 +57,27 @@
         * {
             transition: background-color 0.25s ease, border-color 0.25s ease;
         }
-
         .glow-effect {
             box-shadow: 0 0 40px -10px rgba(99, 102, 241, 0.35);
         }
-
         .card-blur {
             backdrop-filter: blur(12px);
             -webkit-backdrop-filter: blur(12px);
         }
     </style>
 </head>
-
-<body
-    class="bg-slate-50 dark:bg-dark-bg text-slate-800 dark:text-slate-200 font-sans antialiased selection:bg-indigo-500 selection:text-white">
+<body class="bg-slate-50 dark:bg-dark-bg text-slate-800 dark:text-slate-200 font-sans antialiased selection:bg-indigo-500 selection:text-white">
 
     <!-- ================= NAVBAR ================= -->
-    <header
-        class="fixed top-0 left-0 w-full z-50 bg-white/80 dark:bg-dark-bg/85 card-blur border-b border-slate-200 dark:border-dark-border">
+    <header class="fixed top-0 left-0 w-full z-50 bg-white/80 dark:bg-dark-bg/85 card-blur border-b border-slate-200 dark:border-dark-border">
         <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
             <!-- Brand Logo -->
             <a href="#home" class="flex items-center gap-3 group">
-                <span
-                    class="w-10 h-10 rounded-xl bg-gradient-to-tr from-indigo-600 via-primary-500 to-accent-cyan flex items-center justify-center text-white font-bold text-lg shadow-md shadow-indigo-500/20 group-hover:scale-105 transition-transform">
+                <span class="w-10 h-10 rounded-xl bg-gradient-to-tr from-indigo-600 via-primary-500 to-accent-cyan flex items-center justify-center text-white font-bold text-lg shadow-md shadow-indigo-500/20 group-hover:scale-105 transition-transform">
                     TH
                 </span>
                 <div class="flex flex-col">
-                    <span
-                        class="font-bold text-lg tracking-tight text-slate-900 dark:text-white group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">
+                    <span class="font-bold text-lg tracking-tight text-slate-900 dark:text-white group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">
                         Nguyen Thai Hoc
                     </span>
                     <span class="text-xs text-slate-500 dark:text-slate-400 font-mono">HPC • IT Student</span>
@@ -97,66 +85,57 @@
             </a>
 
             <!-- Desktop Nav Items -->
-            <nav class="hidden md:flex items-center gap-8 text-sm font-medium">
-                <a href="#home"
-                    class="text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Home</a>
-                <a href="#about"
-                    class="text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">About</a>
-                <a href="#education"
-                    class="text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Education</a>
-                <a href="#skills"
-                    class="text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Skills</a>
-                <a href="#projects"
-                    class="text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Projects</a>
-                <a href="#experience"
-                    class="text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Experience</a>
-                <a href="#contact"
-                    class="text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Contact</a>
+            <nav class="hidden lg:flex items-center gap-7 text-sm font-medium">
+                <a href="#home" class="text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Home</a>
+                <a href="#about" class="text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">About</a>
+                <a href="#education" class="text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Education & Campus</a>
+                <a href="#skills" class="text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Skills</a>
+                <a href="#projects" class="text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Projects</a>
+                <a href="#experience" class="text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Experience</a>
+                <a href="#contact" class="text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Contact</a>
             </nav>
 
-            <!-- Actions: Dark Mode Toggle & Contact Button -->
-            <div class="flex items-center gap-4">
+            <!-- Actions: Dark Mode Toggle & Quick Phone/Contact Button -->
+            <div class="flex items-center gap-3">
+                <!-- Phone Quick Action -->
+                <a href="tel:0367730151" class="hidden sm:inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-slate-100 dark:bg-slate-800 text-xs font-semibold text-slate-700 dark:text-slate-200 hover:text-indigo-600 transition">
+                    <i class="fa-solid fa-phone text-emerald-500"></i>
+                    <span>0367 730 151</span>
+                </a>
+
                 <!-- Dark Mode Button -->
-                <button id="themeToggle" aria-label="Toggle Dark Mode"
-                    class="w-10 h-10 rounded-xl border border-slate-200 dark:border-dark-border bg-slate-100 dark:bg-slate-800/80 flex items-center justify-center text-slate-600 dark:text-amber-400 hover:bg-slate-200 dark:hover:bg-slate-700 transition">
+                <button id="themeToggle" aria-label="Toggle Dark Mode" class="w-10 h-10 rounded-xl border border-slate-200 dark:border-dark-border bg-slate-100 dark:bg-slate-800/80 flex items-center justify-center text-slate-600 dark:text-amber-400 hover:bg-slate-200 dark:hover:bg-slate-700 transition">
                     <i id="themeIcon" class="fa-solid fa-moon"></i>
                 </button>
 
                 <!-- CTA Button -->
-                <a href="#contact"
-                    class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-gradient-to-r from-indigo-600 to-accent-cyan text-white text-sm font-semibold hover:shadow-lg hover:shadow-indigo-500/25 hover:-translate-y-0.5 active:translate-y-0 transition-all">
+                <a href="#contact" class="hidden md:inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-gradient-to-r from-indigo-600 to-accent-cyan text-white text-sm font-semibold hover:shadow-lg hover:shadow-indigo-500/25 hover:-translate-y-0.5 active:translate-y-0 transition-all">
                     <span>Let's Connect</span>
                     <i class="fa-solid fa-arrow-right text-xs"></i>
                 </a>
 
                 <!-- Mobile Hamburger Button -->
-                <button id="mobileMenuBtn" aria-label="Open Navigation Menu"
-                    class="md:hidden w-10 h-10 rounded-xl border border-slate-200 dark:border-dark-border bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-slate-700 dark:text-slate-200">
+                <button id="mobileMenuBtn" aria-label="Open Navigation Menu" class="lg:hidden w-10 h-10 rounded-xl border border-slate-200 dark:border-dark-border bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-slate-700 dark:text-slate-200">
                     <i class="fa-solid fa-bars"></i>
                 </button>
             </div>
         </div>
 
         <!-- Mobile Drawer Menu -->
-        <div id="mobileMenu"
-            class="hidden md:hidden border-t border-slate-200 dark:border-dark-border bg-white dark:bg-dark-bg px-6 py-6 space-y-4">
-            <a href="#home"
-                class="mobile-nav-link block text-base font-medium text-slate-700 dark:text-slate-200">Home</a>
-            <a href="#about"
-                class="mobile-nav-link block text-base font-medium text-slate-700 dark:text-slate-200">About Me</a>
-            <a href="#education"
-                class="mobile-nav-link block text-base font-medium text-slate-700 dark:text-slate-200">Education</a>
-            <a href="#skills"
-                class="mobile-nav-link block text-base font-medium text-slate-700 dark:text-slate-200">Skills</a>
-            <a href="#projects"
-                class="mobile-nav-link block text-base font-medium text-slate-700 dark:text-slate-200">Projects</a>
-            <a href="#experience"
-                class="mobile-nav-link block text-base font-medium text-slate-700 dark:text-slate-200">Experience</a>
-            <a href="#contact"
-                class="mobile-nav-link block text-base font-medium text-slate-700 dark:text-slate-200">Contact</a>
-            <div class="pt-4">
-                <a href="#contact"
-                    class="w-full py-3 rounded-xl bg-indigo-600 text-white font-semibold flex items-center justify-center gap-2">
+        <div id="mobileMenu" class="hidden lg:hidden border-t border-slate-200 dark:border-dark-border bg-white dark:bg-dark-bg px-6 py-6 space-y-4">
+            <a href="#home" class="mobile-nav-link block text-base font-medium text-slate-700 dark:text-slate-200">Home</a>
+            <a href="#about" class="mobile-nav-link block text-base font-medium text-slate-700 dark:text-slate-200">About Me</a>
+            <a href="#education" class="mobile-nav-link block text-base font-medium text-slate-700 dark:text-slate-200">Education & Campus</a>
+            <a href="#skills" class="mobile-nav-link block text-base font-medium text-slate-700 dark:text-slate-200">Skills</a>
+            <a href="#projects" class="mobile-nav-link block text-base font-medium text-slate-700 dark:text-slate-200">Projects</a>
+            <a href="#experience" class="mobile-nav-link block text-base font-medium text-slate-700 dark:text-slate-200">Experience</a>
+            <a href="#contact" class="mobile-nav-link block text-base font-medium text-slate-700 dark:text-slate-200">Contact</a>
+            <div class="pt-2 flex flex-col gap-2">
+                <a href="tel:0367730151" class="w-full py-3 rounded-xl border border-slate-300 dark:border-dark-border text-slate-800 dark:text-slate-200 font-semibold flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-phone text-emerald-500"></i>
+                    <span>Call: 0367 730 151</span>
+                </a>
+                <a href="#contact" class="w-full py-3 rounded-xl bg-indigo-600 text-white font-semibold flex items-center justify-center gap-2">
                     <i class="fa-regular fa-envelope"></i>
                     <span>Contact Me</span>
                 </a>
@@ -167,20 +146,15 @@
     <!-- ================= HERO SECTION ================= -->
     <section id="home" class="pt-32 pb-20 md:pt-40 md:pb-32 overflow-hidden relative">
         <!-- Background Decorative Gradients -->
-        <div
-            class="absolute -top-32 -left-32 w-96 h-96 bg-indigo-500/15 dark:bg-indigo-600/15 rounded-full blur-3xl pointer-events-none">
-        </div>
-        <div
-            class="absolute top-1/2 -right-32 w-96 h-96 bg-cyan-500/15 dark:bg-cyan-600/15 rounded-full blur-3xl pointer-events-none">
-        </div>
+        <div class="absolute -top-32 -left-32 w-96 h-96 bg-indigo-500/15 dark:bg-indigo-600/15 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute top-1/2 -right-32 w-96 h-96 bg-cyan-500/15 dark:bg-cyan-600/15 rounded-full blur-3xl pointer-events-none"></div>
 
         <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
-
+            
             <!-- Left Column: Introduction & Pitch -->
             <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
                 <!-- Status Badge -->
-                <div
-                    class="inline-flex items-center gap-2.5 px-4 py-2 rounded-full border border-emerald-500/30 bg-emerald-50 dark:bg-emerald-950/40 text-emerald-700 dark:text-emerald-400 text-xs font-semibold uppercase tracking-wider">
+                <div class="inline-flex items-center gap-2.5 px-4 py-2 rounded-full border border-emerald-500/30 bg-emerald-50 dark:bg-emerald-950/40 text-emerald-700 dark:text-emerald-400 text-xs font-semibold uppercase tracking-wider">
                     <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
                     Available for IT Internships & Projects
                 </div>
@@ -188,57 +162,50 @@
                 <!-- Main Greeting -->
                 <div>
                     <p class="text-slate-500 dark:text-slate-400 font-medium text-lg mb-2">Hello & Welcome! I am</p>
-                    <h1
-                        class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 dark:text-white tracking-tight leading-tight">
+                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 dark:text-white tracking-tight leading-tight">
                         Nguyen Thai Hoc
                     </h1>
                     <div class="mt-3 flex items-center justify-center lg:justify-start gap-3">
                         <span class="h-1 w-10 bg-indigo-600 rounded-full hidden sm:block"></span>
-                        <h2
-                            class="text-xl sm:text-2xl font-bold bg-gradient-to-r from-indigo-600 to-accent-cyan bg-clip-text text-transparent">
+                        <h2 class="text-xl sm:text-2xl font-bold bg-gradient-to-r from-indigo-600 to-accent-cyan bg-clip-text text-transparent">
                             Information Technology Student
                         </h2>
                     </div>
                 </div>
 
-                <!-- Bio Summary -->
-                <p
-                    class="text-base sm:text-lg text-slate-600 dark:text-slate-300 max-w-2xl mx-auto lg:mx-0 leading-relaxed font-normal">
-                    Currently pursuing an Information Technology degree at <strong
-                        class="text-slate-900 dark:text-white font-semibold">Hanoi Polytechnic College</strong>.
-                    Passionate about software engineering, website architecture, and database management, with an
-                    eagerness to transform ideas into scalable digital solutions.
+                <!-- Bio Summary with College Address -->
+                <p class="text-base sm:text-lg text-slate-600 dark:text-slate-300 max-w-2xl mx-auto lg:mx-0 leading-relaxed font-normal">
+                    Currently pursuing an Information Technology degree at <strong class="text-slate-900 dark:text-white font-semibold">Hanoi Polytechnic College</strong> (322 My Dinh Street, Hanoi). Passionate about software engineering, website architecture, and database management, with an eagerness to transform ideas into scalable digital solutions.
                 </p>
 
                 <!-- CTA Actions -->
                 <div class="pt-2 flex flex-wrap items-center justify-center lg:justify-start gap-4">
-                    <a href="#projects"
-                        class="px-7 py-3.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-semibold shadow-lg shadow-indigo-600/25 hover:-translate-y-0.5 transition-all flex items-center gap-2">
+                    <a href="#projects" class="px-7 py-3.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-semibold shadow-lg shadow-indigo-600/25 hover:-translate-y-0.5 transition-all flex items-center gap-2">
                         <i class="fa-solid fa-laptop-code"></i>
                         <span>Explore Projects</span>
                     </a>
-                    <a href="#contact"
-                        class="px-7 py-3.5 rounded-xl border border-slate-300 dark:border-dark-border bg-white/70 dark:bg-dark-card hover:bg-slate-100 dark:hover:bg-dark-hover text-slate-800 dark:text-slate-200 font-semibold hover:-translate-y-0.5 transition-all flex items-center gap-2">
-                        <i class="fa-regular fa-paper-plane"></i>
-                        <span>Get In Touch</span>
+                    <a href="tel:0367730151" class="px-6 py-3.5 rounded-xl border border-slate-300 dark:border-dark-border bg-white/70 dark:bg-dark-card hover:bg-slate-100 dark:hover:bg-dark-hover text-slate-800 dark:text-slate-200 font-semibold hover:-translate-y-0.5 transition-all flex items-center gap-2">
+                        <i class="fa-solid fa-phone text-emerald-500"></i>
+                        <span>Call 0367 730 151</span>
                     </a>
                 </div>
 
                 <!-- Quick Social & Info Links -->
-                <div
-                    class="pt-4 flex items-center justify-center lg:justify-start gap-4 text-slate-500 dark:text-slate-400">
-                    <span class="text-xs uppercase tracking-wider font-semibold">Connect:</span>
-                    <a href="mailto:nhoc41551@gmail.com" title="Send Email"
-                        class="w-10 h-10 rounded-lg border border-slate-200 dark:border-dark-border flex items-center justify-center hover:text-indigo-600 dark:hover:text-indigo-400 hover:border-indigo-500 transition-colors">
+                <div class="pt-4 flex flex-wrap items-center justify-center lg:justify-start gap-3 text-slate-500 dark:text-slate-400">
+                    <a href="mailto:nhoc41551@gmail.com" title="Send Email" class="w-10 h-10 rounded-xl border border-slate-200 dark:border-dark-border flex items-center justify-center hover:text-indigo-600 dark:hover:text-indigo-400 hover:border-indigo-500 transition-colors">
                         <i class="fa-solid fa-envelope"></i>
                     </a>
-                    <a href="https://www.facebook.com/share/1BXNfsAmka/?mibextid=wwXIfr" target="_blank"
-                        rel="noopener noreferrer" title="Facebook Profile"
-                        class="w-10 h-10 rounded-lg border border-slate-200 dark:border-dark-border flex items-center justify-center hover:text-indigo-600 dark:hover:text-indigo-400 hover:border-indigo-500 transition-colors">
+                    <a href="tel:0367730151" title="Direct Phone: 0367730151" class="w-10 h-10 rounded-xl border border-slate-200 dark:border-dark-border flex items-center justify-center hover:text-emerald-500 hover:border-emerald-500 transition-colors">
+                        <i class="fa-solid fa-phone"></i>
+                    </a>
+                    <a href="https://www.facebook.com/share/1BXNfsAmka/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" title="Facebook Profile" class="w-10 h-10 rounded-xl border border-slate-200 dark:border-dark-border flex items-center justify-center hover:text-indigo-600 dark:hover:text-indigo-400 hover:border-indigo-500 transition-colors">
                         <i class="fa-brands fa-facebook-f"></i>
                     </a>
+                    <a href="https://github.com/nhoc41551-hub/nhoc41551-hub.github.io" target="_blank" rel="noopener noreferrer" title="GitHub Repository" class="w-10 h-10 rounded-xl border border-slate-200 dark:border-dark-border flex items-center justify-center hover:text-slate-900 dark:hover:text-white hover:border-slate-400 transition-colors">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
                     <span class="inline-flex items-center gap-1.5 text-xs text-slate-500 dark:text-slate-400 ml-2">
-                        <i class="fa-solid fa-location-dot text-indigo-500"></i> Hanoi, Vietnam
+                        <i class="fa-solid fa-location-dot text-indigo-500"></i> Nam Tu Liem, Hanoi
                     </span>
                 </div>
             </div>
@@ -247,42 +214,37 @@
             <div class="lg:col-span-5 flex justify-center relative">
                 <div class="relative w-72 sm:w-80 md:w-96">
                     <!-- Glowing Backing -->
-                    <div
-                        class="absolute inset-0 bg-gradient-to-tr from-indigo-500 to-accent-cyan rounded-3xl blur-2xl opacity-40 -rotate-3 scale-95">
+                    <div class="absolute inset-0 bg-gradient-to-tr from-indigo-500 to-accent-cyan rounded-3xl blur-2xl opacity-40 -rotate-3 scale-95"></div>
+
+                    <!-- Main Avatar Frame (Calibrated for the new photo) -->
+                    <div class="relative rounded-3xl overflow-hidden p-2 bg-white dark:bg-dark-card border-2 border-slate-200/80 dark:border-dark-border shadow-2xl">
+                        <img 
+                            src="images/avatar.jpg" 
+                            alt="Nguyen Thai Hoc - Profile Portrait" 
+                            class="w-full h-[400px] sm:h-[450px] object-cover object-[center_12%] rounded-2xl hover:scale-105 transition-transform duration-500"
+                            onerror="this.onerror=null; this.src='https://nhoc41551-hub.github.io/images/avatar.jpg.jpg';"
+                        >
                     </div>
 
-                    <!-- Main Avatar Frame -->
-                    <div
-                        class="relative rounded-3xl overflow-hidden p-2 bg-white dark:bg-dark-card border-2 border-slate-200/80 dark:border-dark-border shadow-2xl">
-                        <img src="https://nhoc41551-hub.github.io/images/avatar.jpg.jpg"
-                            alt="Nguyen Thai Hoc - Profile Portrait"
-                            class="w-full h-96 sm:h-[420px] object-cover object-top rounded-2xl hover:scale-105 transition-transform duration-500"
-                            onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80';">
-                    </div>
-
-                    <!-- Floating Badge: College -->
-                    <div
-                        class="absolute -bottom-5 -left-4 sm:-left-6 px-4 py-3 rounded-2xl bg-white/90 dark:bg-dark-card/90 card-blur border border-slate-200 dark:border-dark-border shadow-xl flex items-center gap-3">
-                        <div
-                            class="w-10 h-10 rounded-xl bg-indigo-50 dark:bg-indigo-950/60 text-indigo-600 dark:text-indigo-400 flex items-center justify-center text-lg">
+                    <!-- Floating Badge: College Address -->
+                    <div class="absolute -bottom-5 -left-4 sm:-left-6 px-4 py-3 rounded-2xl bg-white/95 dark:bg-dark-card/95 card-blur border border-slate-200 dark:border-dark-border shadow-xl flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-xl bg-indigo-50 dark:bg-indigo-950/60 text-indigo-600 dark:text-indigo-400 flex items-center justify-center text-lg">
                             <i class="fa-solid fa-graduation-cap"></i>
                         </div>
                         <div>
-                            <p class="text-xs text-slate-400 font-mono">Institution</p>
-                            <p class="text-xs sm:text-sm font-bold text-slate-800 dark:text-white">Hanoi Polytechnic</p>
+                            <p class="text-[11px] text-slate-400 font-mono">Hanoi Polytechnic</p>
+                            <p class="text-xs sm:text-sm font-bold text-slate-800 dark:text-white">322 My Dinh, Hanoi</p>
                         </div>
                     </div>
 
-                    <!-- Floating Badge: Major -->
-                    <div
-                        class="absolute -top-4 -right-4 sm:-right-6 px-4 py-3 rounded-2xl bg-white/90 dark:bg-dark-card/90 card-blur border border-slate-200 dark:border-dark-border shadow-xl flex items-center gap-3">
-                        <div
-                            class="w-10 h-10 rounded-xl bg-cyan-50 dark:bg-cyan-950/60 text-cyan-600 dark:text-cyan-400 flex items-center justify-center text-lg">
-                            <i class="fa-solid fa-code"></i>
+                    <!-- Floating Badge: Phone Number -->
+                    <div class="absolute -top-4 -right-4 sm:-right-6 px-4 py-3 rounded-2xl bg-white/95 dark:bg-dark-card/95 card-blur border border-slate-200 dark:border-dark-border shadow-xl flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-xl bg-emerald-50 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400 flex items-center justify-center text-lg">
+                            <i class="fa-solid fa-phone"></i>
                         </div>
                         <div>
-                            <p class="text-xs text-slate-400 font-mono">Specialization</p>
-                            <p class="text-xs sm:text-sm font-bold text-slate-800 dark:text-white">Info Technology</p>
+                            <p class="text-[11px] text-slate-400 font-mono">Hotline / Zalo</p>
+                            <p class="text-xs sm:text-sm font-bold text-slate-800 dark:text-white">0367 730 151</p>
                         </div>
                     </div>
                 </div>
@@ -296,16 +258,14 @@
         <div class="max-w-7xl mx-auto px-6">
             <!-- Section Title -->
             <div class="text-center max-w-3xl mx-auto mb-16">
-                <span
-                    class="text-xs font-mono font-semibold uppercase tracking-widest text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-950/60 px-3 py-1 rounded-md">
+                <span class="text-xs font-mono font-semibold uppercase tracking-widest text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-950/60 px-3 py-1 rounded-md">
                     About Me
                 </span>
                 <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white mt-3">
                     Driven by Curiosity & Passion for Code
                 </h2>
                 <p class="text-slate-600 dark:text-slate-400 mt-4 leading-relaxed">
-                    Get to know more about my background, career vision, and what fuels my enthusiasm for modern
-                    software engineering.
+                    Get to know more about my background, career vision, and what fuels my enthusiasm for modern software engineering.
                 </p>
             </div>
 
@@ -316,76 +276,66 @@
                         Who is Nguyen Thai Hoc?
                     </h3>
                     <p class="text-slate-600 dark:text-slate-300 leading-relaxed text-base sm:text-lg">
-                        I am an energetic and forward-thinking Information Technology student at <strong
-                            class="text-indigo-600 dark:text-indigo-400">Hanoi Polytechnic College</strong>. I have a
-                        profound enthusiasm for modern technology, programming languages, and practical software
-                        development.
+                        I am an energetic and forward-thinking Information Technology student at <strong class="text-indigo-600 dark:text-indigo-400">Hanoi Polytechnic College</strong> (Trường Cao đẳng Công nghệ Bách Khoa Hà Nội). I have a profound enthusiasm for modern technology, programming languages, and practical software development.
                     </p>
                     <p class="text-slate-600 dark:text-slate-300 leading-relaxed text-base sm:text-lg">
-                        With an exploratory mindset and strong autodidactic habits, I spend my time mastering
-                        fundamental programming concepts, database architecture, and frontend design. My aspiration is
-                        to sharpen my engineering capabilities, craft intuitive web experiences, and evolve into a
-                        distinguished full-stack software engineer.
+                        With an exploratory mindset and strong autodidactic habits, I spend my time mastering fundamental programming concepts, database architecture, and frontend design. My aspiration is to sharpen my engineering capabilities, craft intuitive web experiences, and evolve into a distinguished full-stack software engineer.
                     </p>
 
                     <!-- Key Traits -->
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4">
-                        <div
-                            class="p-4 rounded-xl border border-slate-200 dark:border-dark-border bg-slate-50 dark:bg-dark-card flex items-start gap-3">
+                        <div class="p-4 rounded-xl border border-slate-200 dark:border-dark-border bg-slate-50 dark:bg-dark-card flex items-start gap-3">
                             <i class="fa-solid fa-lightbulb text-indigo-500 text-lg mt-1"></i>
                             <div>
                                 <h4 class="font-bold text-slate-900 dark:text-white text-sm">Continuous Learner</h4>
-                                <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">Quickly adapting to
-                                    emerging frameworks and industry standards.</p>
+                                <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">Quickly adapting to emerging frameworks and industry standards.</p>
                             </div>
                         </div>
-                        <div
-                            class="p-4 rounded-xl border border-slate-200 dark:border-dark-border bg-slate-50 dark:bg-dark-card flex items-start gap-3">
+                        <div class="p-4 rounded-xl border border-slate-200 dark:border-dark-border bg-slate-50 dark:bg-dark-card flex items-start gap-3">
                             <i class="fa-solid fa-users text-cyan-500 text-lg mt-1"></i>
                             <div>
                                 <h4 class="font-bold text-slate-900 dark:text-white text-sm">Collaborative Mindset</h4>
-                                <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">Thrives in team
-                                    environments, peer discussions, and code reviews.</p>
+                                <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">Thrives in team environments, peer discussions, and code reviews.</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Fast Facts Card -->
-                <div
-                    class="lg:col-span-5 p-8 rounded-3xl border border-slate-200 dark:border-dark-border bg-gradient-to-b from-slate-50 to-white dark:from-dark-card dark:to-dark-bg shadow-xl space-y-6">
+                <!-- Fast Facts Card with Phone & Detailed Address -->
+                <div class="lg:col-span-5 p-8 rounded-3xl border border-slate-200 dark:border-dark-border bg-gradient-to-b from-slate-50 to-white dark:from-dark-card dark:to-dark-bg shadow-xl space-y-5">
                     <h3 class="text-xl font-bold text-slate-900 dark:text-white flex items-center gap-2">
                         <i class="fa-solid fa-id-card text-indigo-500"></i>
                         <span>Profile Snapshot</span>
                     </h3>
 
-                    <div class="space-y-4 text-sm">
-                        <div class="flex justify-between border-b border-slate-200 dark:border-dark-border pb-3">
+                    <div class="space-y-3.5 text-sm">
+                        <div class="flex justify-between border-b border-slate-200 dark:border-dark-border pb-2.5">
                             <span class="text-slate-500 dark:text-slate-400">Full Name</span>
                             <span class="font-semibold text-slate-900 dark:text-white">Nguyen Thai Hoc</span>
                         </div>
-                        <div class="flex justify-between border-b border-slate-200 dark:border-dark-border pb-3">
-                            <span class="text-slate-500 dark:text-slate-400">Education</span>
-                            <span class="font-semibold text-slate-900 dark:text-white">Hanoi Polytechnic College</span>
+                        <div class="flex justify-between border-b border-slate-200 dark:border-dark-border pb-2.5">
+                            <span class="text-slate-500 dark:text-slate-400">Phone Number</span>
+                            <a href="tel:0367730151" class="font-semibold text-emerald-600 dark:text-emerald-400 hover:underline">0367 730 151</a>
                         </div>
-                        <div class="flex justify-between border-b border-slate-200 dark:border-dark-border pb-3">
+                        <div class="flex justify-between border-b border-slate-200 dark:border-dark-border pb-2.5">
+                            <span class="text-slate-500 dark:text-slate-400">Email</span>
+                            <a href="mailto:nhoc41551@gmail.com" class="font-semibold text-indigo-600 dark:text-indigo-400 hover:underline">nhoc41551@gmail.com</a>
+                        </div>
+                        <div class="flex justify-between border-b border-slate-200 dark:border-dark-border pb-2.5">
+                            <span class="text-slate-500 dark:text-slate-400">College</span>
+                            <span class="font-semibold text-slate-900 dark:text-white text-right">Hanoi Polytechnic College</span>
+                        </div>
+                        <div class="flex justify-between border-b border-slate-200 dark:border-dark-border pb-2.5">
+                            <span class="text-slate-500 dark:text-slate-400">Campus Address</span>
+                            <span class="font-semibold text-slate-900 dark:text-white text-right text-xs">322 My Dinh, Nam Tu Liem, Hanoi</span>
+                        </div>
+                        <div class="flex justify-between border-b border-slate-200 dark:border-dark-border pb-2.5">
                             <span class="text-slate-500 dark:text-slate-400">Field of Study</span>
-                            <span class="font-semibold text-indigo-600 dark:text-indigo-400">Information
-                                Technology</span>
-                        </div>
-                        <div class="flex justify-between border-b border-slate-200 dark:border-dark-border pb-3">
-                            <span class="text-slate-500 dark:text-slate-400">Current Level</span>
-                            <span class="font-semibold text-slate-900 dark:text-white">Undergraduate / College
-                                Student</span>
-                        </div>
-                        <div class="flex justify-between border-b border-slate-200 dark:border-dark-border pb-3">
-                            <span class="text-slate-500 dark:text-slate-400">Location</span>
-                            <span class="font-semibold text-slate-900 dark:text-white">Hanoi, Vietnam</span>
+                            <span class="font-semibold text-indigo-600 dark:text-indigo-400">Information Technology</span>
                         </div>
                         <div class="flex justify-between pb-1">
                             <span class="text-slate-500 dark:text-slate-400">Primary Goal</span>
-                            <span class="font-semibold text-emerald-600 dark:text-emerald-400">Software Engineer / Web
-                                Dev</span>
+                            <span class="font-semibold text-emerald-600 dark:text-emerald-400">Software Engineer / Web Dev</span>
                         </div>
                     </div>
                 </div>
@@ -393,83 +343,83 @@
         </div>
     </section>
 
-    <!-- ================= EDUCATION SECTION ================= -->
-    <section id="education"
-        class="py-20 border-t border-slate-200 dark:border-dark-border bg-slate-50/50 dark:bg-dark-bg">
+    <!-- ================= EDUCATION & CAMPUS SECTION ================= -->
+    <section id="education" class="py-20 border-t border-slate-200 dark:border-dark-border bg-slate-50/50 dark:bg-dark-bg">
         <div class="max-w-7xl mx-auto px-6">
             <div class="text-center max-w-3xl mx-auto mb-16">
-                <span
-                    class="text-xs font-mono font-semibold uppercase tracking-widest text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-950/60 px-3 py-1 rounded-md">
+                <span class="text-xs font-mono font-semibold uppercase tracking-widest text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-950/60 px-3 py-1 rounded-md">
                     Academic Background
                 </span>
                 <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white mt-3">
-                    Education & Credentials
+                    Education & Campus Details
                 </h2>
                 <p class="text-slate-600 dark:text-slate-400 mt-4 leading-relaxed">
-                    Formal training and foundational computer science principles studied at college.
+                    Formal training, location details, and core computer science coursework.
                 </p>
             </div>
 
             <div class="max-w-4xl mx-auto">
                 <!-- Education Timeline Card -->
                 <div class="relative pl-8 sm:pl-10 border-l-2 border-indigo-500/40 space-y-12">
-
+                    
                     <!-- Item 1: Hanoi Polytechnic College -->
                     <div class="relative group">
                         <!-- Dot Marker -->
-                        <span
-                            class="absolute -left-[41px] sm:-left-[49px] top-1 w-6 h-6 rounded-full bg-white dark:bg-dark-bg border-4 border-indigo-600 group-hover:scale-125 transition-transform"></span>
+                        <span class="absolute -left-[41px] sm:-left-[49px] top-1 w-6 h-6 rounded-full bg-white dark:bg-dark-bg border-4 border-indigo-600 group-hover:scale-125 transition-transform"></span>
 
-                        <div
-                            class="p-6 sm:p-8 rounded-2xl border border-slate-200 dark:border-dark-border bg-white dark:bg-dark-card shadow-sm hover:shadow-lg transition-all">
+                        <div class="p-6 sm:p-8 rounded-2xl border border-slate-200 dark:border-dark-border bg-white dark:bg-dark-card shadow-sm hover:shadow-lg transition-all">
                             <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
-                                <span
-                                    class="px-3 py-1 rounded-full bg-indigo-50 dark:bg-indigo-950/60 text-indigo-600 dark:text-indigo-400 text-xs font-mono font-semibold">
+                                <span class="px-3 py-1 rounded-full bg-indigo-50 dark:bg-indigo-950/60 text-indigo-600 dark:text-indigo-400 text-xs font-mono font-semibold">
                                     2024 - Present • College Degree
                                 </span>
-                                <span class="text-xs text-slate-500 dark:text-slate-400 flex items-center gap-1">
-                                    <i class="fa-solid fa-location-dot"></i> Hanoi, Vietnam
-                                </span>
+                                <a href="https://maps.google.com/?q=322+Đường+Mỹ+Đình+Phường+Nhân+Mỹ+Từ+Liêm+Hà+Nội" target="_blank" rel="noopener noreferrer" class="text-xs text-indigo-600 dark:text-indigo-400 hover:underline flex items-center gap-1 font-medium">
+                                    <i class="fa-solid fa-map-location-dot"></i> View on Google Maps
+                                </a>
                             </div>
 
                             <h3 class="text-2xl font-bold text-slate-900 dark:text-white">
                                 Hanoi Polytechnic College (HPC)
                             </h3>
-                            <h4 class="text-base font-semibold text-indigo-600 dark:text-indigo-400 mt-1">
+                            
+                            <!-- Campus Address Highlight -->
+                            <div class="mt-2 p-3.5 rounded-xl bg-slate-50 dark:bg-dark-bg border border-slate-200 dark:border-dark-border flex items-start gap-3">
+                                <i class="fa-solid fa-location-dot text-indigo-500 text-base mt-0.5"></i>
+                                <div>
+                                    <p class="text-xs text-slate-400 font-mono">Campus Address (Địa chỉ trường):</p>
+                                    <p class="text-sm font-semibold text-slate-800 dark:text-white">
+                                        322 My Dinh Street, Nhan My Ward, Nam Tu Liem District, Hanoi, Vietnam
+                                    </p>
+                                    <p class="text-xs text-slate-500 dark:text-slate-400">
+                                        (322 Đường Mỹ Đình, Phường Nhân Mỹ, Từ Liêm, Hà Nội)
+                                    </p>
+                                </div>
+                            </div>
+
+                            <h4 class="text-base font-semibold text-indigo-600 dark:text-indigo-400 mt-4">
                                 Major: Information Technology (Công nghệ thông tin)
                             </h4>
 
-                            <p class="text-slate-600 dark:text-slate-300 mt-4 leading-relaxed text-sm sm:text-base">
-                                Enrolled in a rigorous computer science curriculum designed to establish strong
-                                foundations in software construction, web technologies, and relational database systems.
+                            <p class="text-slate-600 dark:text-slate-300 mt-3 leading-relaxed text-sm sm:text-base">
+                                Enrolled in a rigorous computer science curriculum designed to establish strong foundations in software construction, web technologies, and relational database systems.
                             </p>
 
                             <!-- Coursework Badges -->
                             <div class="mt-6">
-                                <p
-                                    class="text-xs font-mono uppercase text-slate-500 dark:text-slate-400 mb-3 font-semibold">
+                                <p class="text-xs font-mono uppercase text-slate-500 dark:text-slate-400 mb-3 font-semibold">
                                     Core Academic Modules Studied:
                                 </p>
                                 <div class="flex flex-wrap gap-2">
-                                    <span
-                                        class="px-3 py-1.5 rounded-lg border border-slate-200 dark:border-dark-border bg-slate-50 dark:bg-dark-bg text-xs font-medium text-slate-700 dark:text-slate-300">
-                                        <i class="fa-brands fa-html5 text-orange-500 mr-1.5"></i>Web Development (HTML5
-                                        & CSS3)
+                                    <span class="px-3 py-1.5 rounded-lg border border-slate-200 dark:border-dark-border bg-slate-50 dark:bg-dark-bg text-xs font-medium text-slate-700 dark:text-slate-300">
+                                        <i class="fa-brands fa-html5 text-orange-500 mr-1.5"></i>Web Development (HTML5 & CSS3)
                                     </span>
-                                    <span
-                                        class="px-3 py-1.5 rounded-lg border border-slate-200 dark:border-dark-border bg-slate-50 dark:bg-dark-bg text-xs font-medium text-slate-700 dark:text-slate-300">
-                                        <i class="fa-brands fa-java text-red-500 mr-1.5"></i>Object-Oriented Programming
-                                        (Java)
+                                    <span class="px-3 py-1.5 rounded-lg border border-slate-200 dark:border-dark-border bg-slate-50 dark:bg-dark-bg text-xs font-medium text-slate-700 dark:text-slate-300">
+                                        <i class="fa-brands fa-java text-red-500 mr-1.5"></i>Object-Oriented Programming (Java)
                                     </span>
-                                    <span
-                                        class="px-3 py-1.5 rounded-lg border border-slate-200 dark:border-dark-border bg-slate-50 dark:bg-dark-bg text-xs font-medium text-slate-700 dark:text-slate-300">
-                                        <i class="fa-solid fa-database text-blue-500 mr-1.5"></i>Relational Databases
-                                        (MySQL)
+                                    <span class="px-3 py-1.5 rounded-lg border border-slate-200 dark:border-dark-border bg-slate-50 dark:bg-dark-bg text-xs font-medium text-slate-700 dark:text-slate-300">
+                                        <i class="fa-solid fa-database text-blue-500 mr-1.5"></i>Relational Databases (MySQL)
                                     </span>
-                                    <span
-                                        class="px-3 py-1.5 rounded-lg border border-slate-200 dark:border-dark-border bg-slate-50 dark:bg-dark-bg text-xs font-medium text-slate-700 dark:text-slate-300">
-                                        <i class="fa-solid fa-cubes text-emerald-500 mr-1.5"></i>Software Engineering
-                                        Fundamentals
+                                    <span class="px-3 py-1.5 rounded-lg border border-slate-200 dark:border-dark-border bg-slate-50 dark:bg-dark-bg text-xs font-medium text-slate-700 dark:text-slate-300">
+                                        <i class="fa-solid fa-cubes text-emerald-500 mr-1.5"></i>Software Engineering Fundamentals
                                     </span>
                                 </div>
                             </div>
@@ -485,16 +435,14 @@
     <section id="skills" class="py-20 border-t border-slate-200 dark:border-dark-border bg-white dark:bg-dark-card/40">
         <div class="max-w-7xl mx-auto px-6">
             <div class="text-center max-w-3xl mx-auto mb-16">
-                <span
-                    class="text-xs font-mono font-semibold uppercase tracking-widest text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-950/60 px-3 py-1 rounded-md">
+                <span class="text-xs font-mono font-semibold uppercase tracking-widest text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-950/60 px-3 py-1 rounded-md">
                     Capabilities
                 </span>
                 <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white mt-3">
                     Technical & Professional Skills
                 </h2>
                 <p class="text-slate-600 dark:text-slate-400 mt-4 leading-relaxed">
-                    A comprehensive overview of programming languages, tools, databases, and interpersonal skills I
-                    employ.
+                    A comprehensive overview of programming languages, tools, databases, and interpersonal skills I employ.
                 </p>
             </div>
 
@@ -502,15 +450,12 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
 
                 <!-- 1. Frontend Development -->
-                <div
-                    class="p-6 rounded-2xl border border-slate-200 dark:border-dark-border bg-slate-50 dark:bg-dark-card hover:border-indigo-500/50 hover:shadow-xl transition-all group">
-                    <div
-                        class="w-12 h-12 rounded-xl bg-indigo-500/10 text-indigo-600 dark:text-indigo-400 flex items-center justify-center text-xl mb-5 group-hover:scale-110 transition-transform">
+                <div class="p-6 rounded-2xl border border-slate-200 dark:border-dark-border bg-slate-50 dark:bg-dark-card hover:border-indigo-500/50 hover:shadow-xl transition-all group">
+                    <div class="w-12 h-12 rounded-xl bg-indigo-500/10 text-indigo-600 dark:text-indigo-400 flex items-center justify-center text-xl mb-5 group-hover:scale-110 transition-transform">
                         <i class="fa-solid fa-layer-group"></i>
                     </div>
                     <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2">Frontend</h3>
-                    <p class="text-xs text-slate-500 dark:text-slate-400 mb-4">Building structured, modern, and adaptive
-                        interfaces.</p>
+                    <p class="text-xs text-slate-500 dark:text-slate-400 mb-4">Building structured, modern, and adaptive interfaces.</p>
                     <ul class="space-y-2.5 text-sm">
                         <li class="flex items-center gap-2">
                             <i class="fa-brands fa-html5 text-orange-500 w-5"></i>
@@ -532,15 +477,12 @@
                 </div>
 
                 <!-- 2. Backend & Database -->
-                <div
-                    class="p-6 rounded-2xl border border-slate-200 dark:border-dark-border bg-slate-50 dark:bg-dark-card hover:border-accent-cyan/50 hover:shadow-xl transition-all group">
-                    <div
-                        class="w-12 h-12 rounded-xl bg-cyan-500/10 text-cyan-600 dark:text-cyan-400 flex items-center justify-center text-xl mb-5 group-hover:scale-110 transition-transform">
+                <div class="p-6 rounded-2xl border border-slate-200 dark:border-dark-border bg-slate-50 dark:bg-dark-card hover:border-accent-cyan/50 hover:shadow-xl transition-all group">
+                    <div class="w-12 h-12 rounded-xl bg-cyan-500/10 text-cyan-600 dark:text-cyan-400 flex items-center justify-center text-xl mb-5 group-hover:scale-110 transition-transform">
                         <i class="fa-solid fa-server"></i>
                     </div>
                     <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2">Backend & Data</h3>
-                    <p class="text-xs text-slate-500 dark:text-slate-400 mb-4">Application logic and structured database
-                        queries.</p>
+                    <p class="text-xs text-slate-500 dark:text-slate-400 mb-4">Application logic and structured database queries.</p>
                     <ul class="space-y-2.5 text-sm">
                         <li class="flex items-center gap-2">
                             <i class="fa-brands fa-java text-red-500 w-5"></i>
@@ -562,15 +504,12 @@
                 </div>
 
                 <!-- 3. Tools & Workflow -->
-                <div
-                    class="p-6 rounded-2xl border border-slate-200 dark:border-dark-border bg-slate-50 dark:bg-dark-card hover:border-primary-500/50 hover:shadow-xl transition-all group">
-                    <div
-                        class="w-12 h-12 rounded-xl bg-purple-500/10 text-purple-600 dark:text-purple-400 flex items-center justify-center text-xl mb-5 group-hover:scale-110 transition-transform">
+                <div class="p-6 rounded-2xl border border-slate-200 dark:border-dark-border bg-slate-50 dark:bg-dark-card hover:border-primary-500/50 hover:shadow-xl transition-all group">
+                    <div class="w-12 h-12 rounded-xl bg-purple-500/10 text-purple-600 dark:text-purple-400 flex items-center justify-center text-xl mb-5 group-hover:scale-110 transition-transform">
                         <i class="fa-solid fa-wrench"></i>
                     </div>
                     <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2">Tools & DevOps</h3>
-                    <p class="text-xs text-slate-500 dark:text-slate-400 mb-4">Daily toolset for productive development
-                        workflow.</p>
+                    <p class="text-xs text-slate-500 dark:text-slate-400 mb-4">Daily toolset for productive development workflow.</p>
                     <ul class="space-y-2.5 text-sm">
                         <li class="flex items-center gap-2">
                             <i class="fa-solid fa-code text-blue-500 w-5"></i>
@@ -592,15 +531,12 @@
                 </div>
 
                 <!-- 4. Soft Skills -->
-                <div
-                    class="p-6 rounded-2xl border border-slate-200 dark:border-dark-border bg-slate-50 dark:bg-dark-card hover:border-emerald-500/50 hover:shadow-xl transition-all group">
-                    <div
-                        class="w-12 h-12 rounded-xl bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 flex items-center justify-center text-xl mb-5 group-hover:scale-110 transition-transform">
+                <div class="p-6 rounded-2xl border border-slate-200 dark:border-dark-border bg-slate-50 dark:bg-dark-card hover:border-emerald-500/50 hover:shadow-xl transition-all group">
+                    <div class="w-12 h-12 rounded-xl bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 flex items-center justify-center text-xl mb-5 group-hover:scale-110 transition-transform">
                         <i class="fa-solid fa-brain"></i>
                     </div>
                     <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2">Soft Skills</h3>
-                    <p class="text-xs text-slate-500 dark:text-slate-400 mb-4">Interpersonal strength and mindset for
-                        work success.</p>
+                    <p class="text-xs text-slate-500 dark:text-slate-400 mb-4">Interpersonal strength and mindset for work success.</p>
                     <ul class="space-y-2.5 text-sm">
                         <li class="flex items-center gap-2">
                             <i class="fa-solid fa-user-group text-indigo-500 w-5"></i>
@@ -626,20 +562,17 @@
     </section>
 
     <!-- ================= FEATURED PROJECTS ================= -->
-    <section id="projects"
-        class="py-20 border-t border-slate-200 dark:border-dark-border bg-slate-50/50 dark:bg-dark-bg">
+    <section id="projects" class="py-20 border-t border-slate-200 dark:border-dark-border bg-slate-50/50 dark:bg-dark-bg">
         <div class="max-w-7xl mx-auto px-6">
             <div class="text-center max-w-3xl mx-auto mb-16">
-                <span
-                    class="text-xs font-mono font-semibold uppercase tracking-widest text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-950/60 px-3 py-1 rounded-md">
+                <span class="text-xs font-mono font-semibold uppercase tracking-widest text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-950/60 px-3 py-1 rounded-md">
                     Portfolio
                 </span>
                 <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white mt-3">
                     Featured Hands-on Projects
                 </h2>
                 <p class="text-slate-600 dark:text-slate-400 mt-4 leading-relaxed">
-                    Practical applications and software projects crafted during academic coursework and personal
-                    development.
+                    Practical applications and software projects crafted during academic coursework and personal development.
                 </p>
             </div>
 
@@ -647,16 +580,12 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
                 <!-- Project 1 -->
-                <div
-                    class="rounded-2xl border border-slate-200 dark:border-dark-border bg-white dark:bg-dark-card overflow-hidden shadow-sm hover:shadow-xl transition-all flex flex-col group">
-                    <div
-                        class="h-48 bg-gradient-to-tr from-slate-900 via-indigo-950 to-indigo-900 p-6 flex flex-col justify-between relative overflow-hidden">
-                        <div
-                            class="absolute -right-6 -bottom-6 text-indigo-500/10 text-9xl font-mono font-extrabold pointer-events-none">
+                <div class="rounded-2xl border border-slate-200 dark:border-dark-border bg-white dark:bg-dark-card overflow-hidden shadow-sm hover:shadow-xl transition-all flex flex-col group">
+                    <div class="h-48 bg-gradient-to-tr from-slate-900 via-indigo-950 to-indigo-900 p-6 flex flex-col justify-between relative overflow-hidden">
+                        <div class="absolute -right-6 -bottom-6 text-indigo-500/10 text-9xl font-mono font-extrabold pointer-events-none">
                             01
                         </div>
-                        <span
-                            class="inline-block px-3 py-1 rounded-full bg-indigo-500/20 text-indigo-300 text-xs font-mono w-max">
+                        <span class="inline-block px-3 py-1 rounded-full bg-indigo-500/20 text-indigo-300 text-xs font-mono w-max">
                             Java & MySQL
                         </span>
                         <div>
@@ -667,25 +596,18 @@
                     <div class="p-6 flex-1 flex flex-col justify-between">
                         <div>
                             <p class="text-sm text-slate-600 dark:text-slate-400 leading-relaxed mb-4">
-                                A desktop application utilizing Java OOP and MySQL to organize student profiles, compute
-                                grades, handle enrollment records, and execute full CRUD database transactions.
+                                A desktop application utilizing Java OOP and MySQL to organize student profiles, compute grades, handle enrollment records, and execute full CRUD database transactions.
                             </p>
                             <div class="flex flex-wrap gap-1.5 mb-6">
-                                <span
-                                    class="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800 text-xs font-mono text-slate-700 dark:text-slate-300">Java</span>
-                                <span
-                                    class="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800 text-xs font-mono text-slate-700 dark:text-slate-300">MySQL</span>
-                                <span
-                                    class="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800 text-xs font-mono text-slate-700 dark:text-slate-300">JDBC</span>
-                                <span
-                                    class="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800 text-xs font-mono text-slate-700 dark:text-slate-300">OOP</span>
+                                <span class="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800 text-xs font-mono text-slate-700 dark:text-slate-300">Java</span>
+                                <span class="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800 text-xs font-mono text-slate-700 dark:text-slate-300">MySQL</span>
+                                <span class="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800 text-xs font-mono text-slate-700 dark:text-slate-300">JDBC</span>
+                                <span class="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800 text-xs font-mono text-slate-700 dark:text-slate-300">OOP</span>
                             </div>
                         </div>
-                        <div
-                            class="pt-4 border-t border-slate-100 dark:border-dark-border flex items-center justify-between">
+                        <div class="pt-4 border-t border-slate-100 dark:border-dark-border flex items-center justify-between">
                             <span class="text-xs text-slate-400 font-mono">Academic Project</span>
-                            <a href="#contact"
-                                class="text-indigo-600 dark:text-indigo-400 hover:text-indigo-700 text-sm font-semibold flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+                            <a href="#contact" class="text-indigo-600 dark:text-indigo-400 hover:text-indigo-700 text-sm font-semibold flex items-center gap-1 group-hover:translate-x-1 transition-transform">
                                 Inquire Details <i class="fa-solid fa-arrow-right text-xs"></i>
                             </a>
                         </div>
@@ -693,16 +615,12 @@
                 </div>
 
                 <!-- Project 2 -->
-                <div
-                    class="rounded-2xl border border-slate-200 dark:border-dark-border bg-white dark:bg-dark-card overflow-hidden shadow-sm hover:shadow-xl transition-all flex flex-col group">
-                    <div
-                        class="h-48 bg-gradient-to-tr from-slate-900 via-cyan-950 to-blue-900 p-6 flex flex-col justify-between relative overflow-hidden">
-                        <div
-                            class="absolute -right-6 -bottom-6 text-cyan-500/10 text-9xl font-mono font-extrabold pointer-events-none">
+                <div class="rounded-2xl border border-slate-200 dark:border-dark-border bg-white dark:bg-dark-card overflow-hidden shadow-sm hover:shadow-xl transition-all flex flex-col group">
+                    <div class="h-48 bg-gradient-to-tr from-slate-900 via-cyan-950 to-blue-900 p-6 flex flex-col justify-between relative overflow-hidden">
+                        <div class="absolute -right-6 -bottom-6 text-cyan-500/10 text-9xl font-mono font-extrabold pointer-events-none">
                             02
                         </div>
-                        <span
-                            class="inline-block px-3 py-1 rounded-full bg-cyan-500/20 text-cyan-300 text-xs font-mono w-max">
+                        <span class="inline-block px-3 py-1 rounded-full bg-cyan-500/20 text-cyan-300 text-xs font-mono w-max">
                             Web Design & UI/UX
                         </span>
                         <div>
@@ -713,44 +631,31 @@
                     <div class="p-6 flex-1 flex flex-col justify-between">
                         <div>
                             <p class="text-sm text-slate-600 dark:text-slate-400 leading-relaxed mb-4">
-                                Responsive, high-performance personal portfolio deployed on GitHub Pages. Features
-                                interactive dark/light theming, clean typography, and mobile-first layout.
+                                Responsive, high-performance personal portfolio deployed on GitHub Pages. Features interactive dark/light theming, clean typography, and mobile-first layout.
                             </p>
                             <div class="flex flex-wrap gap-1.5 mb-6">
-                                <span
-                                    class="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800 text-xs font-mono text-slate-700 dark:text-slate-300">HTML5</span>
-                                <span
-                                    class="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800 text-xs font-mono text-slate-700 dark:text-slate-300">Tailwind
-                                    CSS</span>
-                                <span
-                                    class="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800 text-xs font-mono text-slate-700 dark:text-slate-300">JavaScript</span>
-                                <span
-                                    class="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800 text-xs font-mono text-slate-700 dark:text-slate-300">GitHub
-                                    Pages</span>
+                                <span class="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800 text-xs font-mono text-slate-700 dark:text-slate-300">HTML5</span>
+                                <span class="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800 text-xs font-mono text-slate-700 dark:text-slate-300">Tailwind CSS</span>
+                                <span class="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800 text-xs font-mono text-slate-700 dark:text-slate-300">JavaScript</span>
+                                <span class="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800 text-xs font-mono text-slate-700 dark:text-slate-300">GitHub Pages</span>
                             </div>
                         </div>
-                        <div
-                            class="pt-4 border-t border-slate-100 dark:border-dark-border flex items-center justify-between">
+                        <div class="pt-4 border-t border-slate-100 dark:border-dark-border flex items-center justify-between">
                             <span class="text-xs text-slate-400 font-mono">Live Deployment</span>
-                            <a href="https://nhoc41551-hub.github.io/" target="_blank" rel="noopener noreferrer"
-                                class="text-indigo-600 dark:text-indigo-400 hover:text-indigo-700 text-sm font-semibold flex items-center gap-1 group-hover:translate-x-1 transition-transform">
-                                Live Link <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                            <a href="https://github.com/nhoc41551-hub/nhoc41551-hub.github.io" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 hover:text-indigo-700 text-sm font-semibold flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+                                GitHub Repo <i class="fa-brands fa-github text-sm"></i>
                             </a>
                         </div>
                     </div>
                 </div>
 
                 <!-- Project 3 -->
-                <div
-                    class="rounded-2xl border border-slate-200 dark:border-dark-border bg-white dark:bg-dark-card overflow-hidden shadow-sm hover:shadow-xl transition-all flex flex-col group">
-                    <div
-                        class="h-48 bg-gradient-to-tr from-slate-900 via-emerald-950 to-teal-900 p-6 flex flex-col justify-between relative overflow-hidden">
-                        <div
-                            class="absolute -right-6 -bottom-6 text-emerald-500/10 text-9xl font-mono font-extrabold pointer-events-none">
+                <div class="rounded-2xl border border-slate-200 dark:border-dark-border bg-white dark:bg-dark-card overflow-hidden shadow-sm hover:shadow-xl transition-all flex flex-col group">
+                    <div class="h-48 bg-gradient-to-tr from-slate-900 via-emerald-950 to-teal-900 p-6 flex flex-col justify-between relative overflow-hidden">
+                        <div class="absolute -right-6 -bottom-6 text-emerald-500/10 text-9xl font-mono font-extrabold pointer-events-none">
                             03
                         </div>
-                        <span
-                            class="inline-block px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 text-xs font-mono w-max">
+                        <span class="inline-block px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 text-xs font-mono w-max">
                             Frontend Prototype
                         </span>
                         <div>
@@ -761,28 +666,18 @@
                     <div class="p-6 flex-1 flex flex-col justify-between">
                         <div>
                             <p class="text-sm text-slate-600 dark:text-slate-400 leading-relaxed mb-4">
-                                Interactive storefront landing interface emphasizing product highlights, responsive
-                                navigation, promotional banners, and clean semantic markup.
+                                Interactive storefront landing interface emphasizing product highlights, responsive navigation, promotional banners, and clean semantic markup.
                             </p>
                             <div class="flex flex-wrap gap-1.5 mb-6">
-                                <span
-                                    class="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800 text-xs font-mono text-slate-700 dark:text-slate-300">HTML5</span>
-                                <span
-                                    class="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800 text-xs font-mono text-slate-700 dark:text-slate-300">CSS3
-                                    Grid</span>
-                                <span
-                                    class="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800 text-xs font-mono text-slate-700 dark:text-slate-300">Responsive
-                                    UI</span>
-                                <span
-                                    class="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800 text-xs font-mono text-slate-700 dark:text-slate-300">VS
-                                    Code</span>
+                                <span class="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800 text-xs font-mono text-slate-700 dark:text-slate-300">HTML5</span>
+                                <span class="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800 text-xs font-mono text-slate-700 dark:text-slate-300">CSS3 Grid</span>
+                                <span class="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800 text-xs font-mono text-slate-700 dark:text-slate-300">Responsive UI</span>
+                                <span class="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800 text-xs font-mono text-slate-700 dark:text-slate-300">VS Code</span>
                             </div>
                         </div>
-                        <div
-                            class="pt-4 border-t border-slate-100 dark:border-dark-border flex items-center justify-between">
+                        <div class="pt-4 border-t border-slate-100 dark:border-dark-border flex items-center justify-between">
                             <span class="text-xs text-slate-400 font-mono">Concept Demo</span>
-                            <a href="#contact"
-                                class="text-indigo-600 dark:text-indigo-400 hover:text-indigo-700 text-sm font-semibold flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+                            <a href="#contact" class="text-indigo-600 dark:text-indigo-400 hover:text-indigo-700 text-sm font-semibold flex items-center gap-1 group-hover:translate-x-1 transition-transform">
                                 Explore <i class="fa-solid fa-arrow-right text-xs"></i>
                             </a>
                         </div>
@@ -794,12 +689,10 @@
     </section>
 
     <!-- ================= EXPERIENCE SECTION ================= -->
-    <section id="experience"
-        class="py-20 border-t border-slate-200 dark:border-dark-border bg-white dark:bg-dark-card/40">
+    <section id="experience" class="py-20 border-t border-slate-200 dark:border-dark-border bg-white dark:bg-dark-card/40">
         <div class="max-w-7xl mx-auto px-6">
             <div class="text-center max-w-3xl mx-auto mb-16">
-                <span
-                    class="text-xs font-mono font-semibold uppercase tracking-widest text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-950/60 px-3 py-1 rounded-md">
+                <span class="text-xs font-mono font-semibold uppercase tracking-widest text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-950/60 px-3 py-1 rounded-md">
                     Trajectory
                 </span>
                 <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white mt-3">
@@ -812,35 +705,30 @@
 
             <div class="max-w-4xl mx-auto space-y-8">
                 <!-- Experience Card 1 -->
-                <div
-                    class="p-8 rounded-2xl border border-slate-200 dark:border-dark-border bg-slate-50 dark:bg-dark-card shadow-sm hover:shadow-md transition-all">
+                <div class="p-8 rounded-2xl border border-slate-200 dark:border-dark-border bg-slate-50 dark:bg-dark-card shadow-sm hover:shadow-md transition-all">
                     <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
                         <h3 class="text-xl font-bold text-slate-900 dark:text-white">
                             Practical Laboratory & Team Assignments
                         </h3>
-                        <span
-                            class="text-xs font-mono px-3 py-1 rounded-full bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300">
+                        <span class="text-xs font-mono px-3 py-1 rounded-full bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300">
                             Academic Journey
                         </span>
                     </div>
                     <p class="text-sm font-semibold text-indigo-600 dark:text-indigo-400 mb-4">
-                        Hanoi Polytechnic College • Department of Information Technology
+                        Hanoi Polytechnic College • Department of Information Technology (322 My Dinh, Hanoi)
                     </p>
                     <ul class="space-y-3 text-slate-600 dark:text-slate-300 text-sm sm:text-base">
                         <li class="flex items-start gap-3">
                             <i class="fa-solid fa-circle-check text-indigo-500 mt-1"></i>
-                            <span>Consistently accumulating technical competency through coding lab sessions,
-                                algorithmic challenges, and team assignments.</span>
+                            <span>Consistently accumulating technical competency through coding lab sessions, algorithmic challenges, and team assignments.</span>
                         </li>
                         <li class="flex items-start gap-3">
                             <i class="fa-solid fa-circle-check text-indigo-500 mt-1"></i>
-                            <span>Deepening understanding of complete web development workflows, frontend user
-                                experience design, and backend relational database management.</span>
+                            <span>Deepening understanding of complete web development workflows, frontend user experience design, and backend relational database management.</span>
                         </li>
                         <li class="flex items-start gap-3">
                             <i class="fa-solid fa-circle-check text-indigo-500 mt-1"></i>
-                            <span>Practicing source code version management with Git/GitHub and writing clean,
-                                maintainable, object-oriented Java code.</span>
+                            <span>Practicing source code version management with Git/GitHub and writing clean, maintainable, object-oriented Java code.</span>
                         </li>
                     </ul>
                 </div>
@@ -849,12 +737,10 @@
     </section>
 
     <!-- ================= CONTACT SECTION ================= -->
-    <section id="contact"
-        class="py-20 border-t border-slate-200 dark:border-dark-border bg-slate-50/50 dark:bg-dark-bg relative overflow-hidden">
+    <section id="contact" class="py-20 border-t border-slate-200 dark:border-dark-border bg-slate-50/50 dark:bg-dark-bg relative overflow-hidden">
         <div class="max-w-7xl mx-auto px-6 relative">
             <div class="text-center max-w-3xl mx-auto mb-16">
-                <span
-                    class="text-xs font-mono font-semibold uppercase tracking-widest text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-950/60 px-3 py-1 rounded-md">
+                <span class="text-xs font-mono font-semibold uppercase tracking-widest text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-950/60 px-3 py-1 rounded-md">
                     Get in Touch
                 </span>
                 <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white mt-3">
@@ -866,46 +752,63 @@
             </div>
 
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
-
+                
                 <!-- Contact Information Column -->
-                <div class="lg:col-span-5 space-y-6">
+                <div class="lg:col-span-5 space-y-5">
                     <h3 class="text-2xl font-bold text-slate-900 dark:text-white">
                         Contact Details
                     </h3>
                     <p class="text-slate-600 dark:text-slate-300 leading-relaxed text-sm sm:text-base">
-                        I am actively seeking software development internship opportunities and junior IT positions. You
-                        can contact me directly via email or social networks below.
+                        I am actively seeking software development internship opportunities and junior IT positions. You can contact me directly via phone, email, or social networks below.
                     </p>
 
-                    <!-- Contact Card: Email -->
-                    <div
-                        class="p-5 rounded-2xl border border-slate-200 dark:border-dark-border bg-white dark:bg-dark-card shadow-sm flex items-center justify-between gap-4">
+                    <!-- Contact Card: Phone -->
+                    <div class="p-5 rounded-2xl border border-slate-200 dark:border-dark-border bg-white dark:bg-dark-card shadow-sm flex items-center justify-between gap-4">
                         <div class="flex items-center gap-4">
-                            <div
-                                class="w-12 h-12 rounded-xl bg-indigo-50 dark:bg-indigo-950/60 text-indigo-600 dark:text-indigo-400 flex items-center justify-center text-xl">
+                            <div class="w-12 h-12 rounded-xl bg-emerald-50 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400 flex items-center justify-center text-xl">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div>
+                                <p class="text-xs text-slate-400 font-mono">Mobile / Hotline</p>
+                                <a href="tel:0367730151" class="text-sm sm:text-base font-bold text-slate-900 dark:text-white hover:text-emerald-500 transition-colors">
+                                    0367 730 151
+                                </a>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <button onclick="copyPhone()" title="Copy phone number" class="px-3 py-2 rounded-lg border border-slate-200 dark:border-dark-border hover:bg-slate-100 dark:hover:bg-slate-800 text-xs font-semibold text-emerald-600 dark:text-emerald-400 transition flex items-center gap-1.5">
+                                <i id="copyPhoneIcon" class="fa-regular fa-copy"></i>
+                                <span id="copyPhoneText">Copy</span>
+                            </button>
+                            <a href="tel:0367730151" class="px-3 py-2 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-semibold transition">
+                                Call
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Contact Card: Email -->
+                    <div class="p-5 rounded-2xl border border-slate-200 dark:border-dark-border bg-white dark:bg-dark-card shadow-sm flex items-center justify-between gap-4">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 rounded-xl bg-indigo-50 dark:bg-indigo-950/60 text-indigo-600 dark:text-indigo-400 flex items-center justify-center text-xl">
                                 <i class="fa-solid fa-envelope"></i>
                             </div>
                             <div>
                                 <p class="text-xs text-slate-400 font-mono">Email Address</p>
-                                <a href="mailto:nhoc41551@gmail.com"
-                                    class="text-sm sm:text-base font-semibold text-slate-900 dark:text-white hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">
+                                <a href="mailto:nhoc41551@gmail.com" class="text-sm sm:text-base font-semibold text-slate-900 dark:text-white hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">
                                     nhoc41551@gmail.com
                                 </a>
                             </div>
                         </div>
-                        <button onclick="copyEmail()" title="Copy to clipboard"
-                            class="px-3 py-2 rounded-lg border border-slate-200 dark:border-dark-border hover:bg-slate-100 dark:hover:bg-slate-800 text-xs font-semibold text-indigo-600 dark:text-indigo-400 transition flex items-center gap-1.5">
-                            <i id="copyIcon" class="fa-regular fa-copy"></i>
-                            <span id="copyText">Copy</span>
+                        <button onclick="copyEmail()" title="Copy to clipboard" class="px-3 py-2 rounded-lg border border-slate-200 dark:border-dark-border hover:bg-slate-100 dark:hover:bg-slate-800 text-xs font-semibold text-indigo-600 dark:text-indigo-400 transition flex items-center gap-1.5">
+                            <i id="copyEmailIcon" class="fa-regular fa-copy"></i>
+                            <span id="copyEmailText">Copy</span>
                         </button>
                     </div>
 
                     <!-- Contact Card: Facebook -->
-                    <div
-                        class="p-5 rounded-2xl border border-slate-200 dark:border-dark-border bg-white dark:bg-dark-card shadow-sm flex items-center justify-between gap-4">
+                    <div class="p-5 rounded-2xl border border-slate-200 dark:border-dark-border bg-white dark:bg-dark-card shadow-sm flex items-center justify-between gap-4">
                         <div class="flex items-center gap-4">
-                            <div
-                                class="w-12 h-12 rounded-xl bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 flex items-center justify-center text-xl">
+                            <div class="w-12 h-12 rounded-xl bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 flex items-center justify-center text-xl">
                                 <i class="fa-brands fa-facebook-f"></i>
                             </div>
                             <div>
@@ -915,81 +818,68 @@
                                 </span>
                             </div>
                         </div>
-                        <a href="https://www.facebook.com/share/1BXNfsAmka/?mibextid=wwXIfr" target="_blank"
-                            rel="noopener noreferrer"
-                            class="px-4 py-2 rounded-lg bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold transition flex items-center gap-1.5">
+                        <a href="https://www.facebook.com/share/1BXNfsAmka/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded-lg bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold transition flex items-center gap-1.5">
                             <span>Visit</span>
                             <i class="fa-solid fa-arrow-up-right-from-square"></i>
                         </a>
                     </div>
 
-                    <!-- Contact Card: Institution & Location -->
-                    <div
-                        class="p-5 rounded-2xl border border-slate-200 dark:border-dark-border bg-white dark:bg-dark-card shadow-sm flex items-center gap-4">
-                        <div
-                            class="w-12 h-12 rounded-xl bg-emerald-50 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400 flex items-center justify-center text-xl">
-                            <i class="fa-solid fa-building-columns"></i>
+                    <!-- Contact Card: Campus Address & Location with Map Link -->
+                    <div class="p-5 rounded-2xl border border-slate-200 dark:border-dark-border bg-white dark:bg-dark-card shadow-sm flex items-center justify-between gap-4">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 rounded-xl bg-amber-50 dark:bg-amber-950/60 text-amber-600 dark:text-amber-400 flex items-center justify-center text-xl">
+                                <i class="fa-solid fa-map-location-dot"></i>
+                            </div>
+                            <div>
+                                <p class="text-xs text-slate-400 font-mono">Current Campus Location</p>
+                                <p class="text-xs sm:text-sm font-semibold text-slate-900 dark:text-white">
+                                    322 My Dinh, Nhan My, Nam Tu Liem, Hanoi
+                                </p>
+                            </div>
                         </div>
-                        <div>
-                            <p class="text-xs text-slate-400 font-mono">Current Campus</p>
-                            <p class="text-sm sm:text-base font-semibold text-slate-900 dark:text-white">
-                                Hanoi Polytechnic College, Hanoi, Vietnam
-                            </p>
-                        </div>
+                        <a href="https://maps.google.com/?q=322+Đường+Mỹ+Đình+Phường+Nhân+Mỹ+Từ+Liêm+Hà+Nội" target="_blank" rel="noopener noreferrer" class="px-3.5 py-2 rounded-lg border border-slate-200 dark:border-dark-border hover:bg-slate-100 dark:hover:bg-slate-800 text-xs font-semibold text-amber-600 dark:text-amber-400 transition flex items-center gap-1">
+                            <span>Map</span>
+                            <i class="fa-solid fa-location-arrow"></i>
+                        </a>
                     </div>
                 </div>
 
                 <!-- Interactive Message Form -->
                 <div class="lg:col-span-7">
-                    <div
-                        class="p-8 rounded-3xl border border-slate-200 dark:border-dark-border bg-white dark:bg-dark-card shadow-xl">
+                    <div class="p-8 rounded-3xl border border-slate-200 dark:border-dark-border bg-white dark:bg-dark-card shadow-xl">
                         <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-2">
                             <i class="fa-regular fa-paper-plane text-indigo-500"></i>
-                            <span>Send a Message</span>
+                            <span>Send a Direct Message</span>
                         </h3>
 
                         <form id="contactForm" onsubmit="handleFormSubmit(event)" class="space-y-5">
                             <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
                                 <div>
-                                    <label
-                                        class="block text-xs font-mono uppercase text-slate-500 dark:text-slate-400 mb-2 font-medium">Your
-                                        Name</label>
-                                    <input type="text" required placeholder="John Doe"
-                                        class="w-full px-4 py-3 rounded-xl border border-slate-200 dark:border-dark-border bg-slate-50 dark:bg-dark-bg text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-indigo-500 text-sm">
+                                    <label class="block text-xs font-mono uppercase text-slate-500 dark:text-slate-400 mb-2 font-medium">Your Name</label>
+                                    <input type="text" required placeholder="John Doe" class="w-full px-4 py-3 rounded-xl border border-slate-200 dark:border-dark-border bg-slate-50 dark:bg-dark-bg text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-indigo-500 text-sm">
                                 </div>
                                 <div>
-                                    <label
-                                        class="block text-xs font-mono uppercase text-slate-500 dark:text-slate-400 mb-2 font-medium">Your
-                                        Email</label>
-                                    <input type="email" required placeholder="john@example.com"
-                                        class="w-full px-4 py-3 rounded-xl border border-slate-200 dark:border-dark-border bg-slate-50 dark:bg-dark-bg text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-indigo-500 text-sm">
+                                    <label class="block text-xs font-mono uppercase text-slate-500 dark:text-slate-400 mb-2 font-medium">Your Email</label>
+                                    <input type="email" required placeholder="john@example.com" class="w-full px-4 py-3 rounded-xl border border-slate-200 dark:border-dark-border bg-slate-50 dark:bg-dark-bg text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-indigo-500 text-sm">
                                 </div>
                             </div>
 
                             <div>
-                                <label
-                                    class="block text-xs font-mono uppercase text-slate-500 dark:text-slate-400 mb-2 font-medium">Subject</label>
-                                <input type="text" required placeholder="Internship Opportunity / Inquiry"
-                                    class="w-full px-4 py-3 rounded-xl border border-slate-200 dark:border-dark-border bg-slate-50 dark:bg-dark-bg text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-indigo-500 text-sm">
+                                <label class="block text-xs font-mono uppercase text-slate-500 dark:text-slate-400 mb-2 font-medium">Subject</label>
+                                <input type="text" required placeholder="Internship Opportunity / Inquiry" class="w-full px-4 py-3 rounded-xl border border-slate-200 dark:border-dark-border bg-slate-50 dark:bg-dark-bg text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-indigo-500 text-sm">
                             </div>
 
                             <div>
-                                <label
-                                    class="block text-xs font-mono uppercase text-slate-500 dark:text-slate-400 mb-2 font-medium">Your
-                                    Message</label>
-                                <textarea rows="5" required
-                                    placeholder="Hi Hoc, I saw your portfolio and would love to discuss..."
-                                    class="w-full px-4 py-3 rounded-xl border border-slate-200 dark:border-dark-border bg-slate-50 dark:bg-dark-bg text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-indigo-500 text-sm"></textarea>
+                                <label class="block text-xs font-mono uppercase text-slate-500 dark:text-slate-400 mb-2 font-medium">Your Message</label>
+                                <textarea rows="5" required placeholder="Hi Hoc, I saw your portfolio and would love to discuss..." class="w-full px-4 py-3 rounded-xl border border-slate-200 dark:border-dark-border bg-slate-50 dark:bg-dark-bg text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-indigo-500 text-sm"></textarea>
                             </div>
 
-                            <button type="submit"
-                                class="w-full py-4 rounded-xl bg-gradient-to-r from-indigo-600 to-accent-cyan text-white font-semibold shadow-lg shadow-indigo-600/20 hover:opacity-95 transition flex items-center justify-center gap-2">
+                            <button type="submit" class="w-full py-4 rounded-xl bg-gradient-to-r from-indigo-600 to-accent-cyan text-white font-semibold shadow-lg shadow-indigo-600/20 hover:opacity-95 transition flex items-center justify-center gap-2">
                                 <i class="fa-solid fa-paper-plane"></i>
-                                <span>Send Direct Message</span>
+                                <span>Send Direct Message to nhoc41551@gmail.com</span>
                             </button>
 
-                            <div id="formSuccess"
-                                class="hidden p-4 rounded-xl bg-emerald-50 dark:bg-emerald-950/60 border border-emerald-500/30 text-emerald-700 dark:text-emerald-300 text-sm flex items-center gap-2">
+                            <div id="formSuccess" class="hidden p-4 rounded-xl bg-emerald-50 dark:bg-emerald-950/60 border border-emerald-500/30 text-emerald-700 dark:text-emerald-300 text-sm flex items-center gap-2">
                                 <i class="fa-solid fa-circle-check text-base"></i>
                                 <span>Thank you! Your message has been prepared. Opening your mail client now...</span>
                             </div>
@@ -1005,30 +895,29 @@
     <footer class="border-t border-slate-200 dark:border-dark-border bg-white dark:bg-dark-card py-10">
         <div class="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-6">
             <div class="flex items-center gap-3">
-                <span
-                    class="w-8 h-8 rounded-lg bg-indigo-600 flex items-center justify-center text-white font-bold text-sm">
+                <span class="w-8 h-8 rounded-lg bg-indigo-600 flex items-center justify-center text-white font-bold text-sm">
                     TH
                 </span>
                 <span class="text-sm text-slate-500 dark:text-slate-400">
-                    © 2026 <strong class="text-slate-800 dark:text-slate-200 font-semibold">Nguyen Thai Hoc</strong>.
-                    All Rights Reserved.
+                    © 2026 <strong class="text-slate-800 dark:text-slate-200 font-semibold">Nguyen Thai Hoc</strong> • Hanoi Polytechnic College.
                 </span>
             </div>
 
             <!-- Social Links & Back to Top -->
             <div class="flex items-center gap-4">
-                <a href="mailto:nhoc41551@gmail.com"
-                    class="text-slate-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition">
+                <a href="tel:0367730151" title="Call: 0367 730 151" class="text-slate-400 hover:text-emerald-500 transition">
+                    <i class="fa-solid fa-phone text-lg"></i>
+                </a>
+                <a href="mailto:nhoc41551@gmail.com" title="Email" class="text-slate-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition">
                     <i class="fa-solid fa-envelope text-lg"></i>
                 </a>
-                <a href="https://www.facebook.com/share/1BXNfsAmka/?mibextid=wwXIfr" target="_blank"
-                    rel="noopener noreferrer"
-                    class="text-slate-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition">
+                <a href="https://www.facebook.com/share/1BXNfsAmka/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" title="Facebook" class="text-slate-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition">
                     <i class="fa-brands fa-facebook text-lg"></i>
                 </a>
-                <a href="#home"
-                    class="w-9 h-9 rounded-lg border border-slate-200 dark:border-dark-border flex items-center justify-center text-slate-500 hover:text-indigo-600 dark:hover:text-indigo-400 transition ml-2"
-                    title="Back to top">
+                <a href="https://github.com/nhoc41551-hub/nhoc41551-hub.github.io" target="_blank" rel="noopener noreferrer" title="GitHub" class="text-slate-400 hover:text-slate-800 dark:hover:text-white transition">
+                    <i class="fa-brands fa-github text-lg"></i>
+                </a>
+                <a href="#home" class="w-9 h-9 rounded-lg border border-slate-200 dark:border-dark-border flex items-center justify-center text-slate-500 hover:text-indigo-600 dark:hover:text-indigo-400 transition ml-2" title="Back to top">
                     <i class="fa-solid fa-arrow-up text-xs"></i>
                 </a>
             </div>
@@ -1042,8 +931,7 @@
         const themeIcon = document.getElementById('themeIcon');
         const htmlElement = document.documentElement;
 
-        // Check stored theme or system preference
-        const currentTheme = localStorage.getItem('theme') ||
+        const currentTheme = localStorage.getItem('theme') || 
             (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
 
         if (currentTheme === 'dark') {
@@ -1081,26 +969,45 @@
             });
         });
 
-        // 3. One-Click Copy Email to Clipboard
-        function copyEmail() {
-            const email = 'nhoc41551@gmail.com';
-            navigator.clipboard.writeText(email).then(() => {
-                const copyText = document.getElementById('copyText');
-                const copyIcon = document.getElementById('copyIcon');
-
-                copyText.textContent = 'Copied!';
-                copyIcon.classList.replace('fa-regular', 'fa-solid');
-                copyIcon.classList.replace('fa-copy', 'fa-check');
+        // 3. One-Click Copy Phone Number
+        function copyPhone() {
+            const phone = '0367730151';
+            navigator.clipboard.writeText(phone).then(() => {
+                const copyPhoneText = document.getElementById('copyPhoneText');
+                const copyPhoneIcon = document.getElementById('copyPhoneIcon');
+                
+                copyPhoneText.textContent = 'Copied!';
+                copyPhoneIcon.classList.replace('fa-regular', 'fa-solid');
+                copyPhoneIcon.classList.replace('fa-copy', 'fa-check');
 
                 setTimeout(() => {
-                    copyText.textContent = 'Copy';
-                    copyIcon.classList.replace('fa-solid', 'fa-regular');
-                    copyIcon.classList.replace('fa-check', 'fa-copy');
-                }, 2500);
+                    copyPhoneText.textContent = 'Copy';
+                    copyPhoneIcon.classList.replace('fa-solid', 'fa-regular');
+                    copyPhoneIcon.classList.replace('fa-check', 'fa-copy');
+                }, 2000);
             });
         }
 
-        // 4. Contact Form Handler (Direct mailto trigger)
+        // 4. One-Click Copy Email to Clipboard
+        function copyEmail() {
+            const email = 'nhoc41551@gmail.com';
+            navigator.clipboard.writeText(email).then(() => {
+                const copyEmailText = document.getElementById('copyEmailText');
+                const copyEmailIcon = document.getElementById('copyEmailIcon');
+                
+                copyEmailText.textContent = 'Copied!';
+                copyEmailIcon.classList.replace('fa-regular', 'fa-solid');
+                copyEmailIcon.classList.replace('fa-copy', 'fa-check');
+
+                setTimeout(() => {
+                    copyEmailText.textContent = 'Copy';
+                    copyEmailIcon.classList.replace('fa-solid', 'fa-regular');
+                    copyEmailIcon.classList.replace('fa-check', 'fa-copy');
+                }, 2000);
+            });
+        }
+
+        // 5. Contact Form Handler (Direct mailto trigger)
         function handleFormSubmit(e) {
             e.preventDefault();
             const form = e.target;
@@ -1109,15 +1016,14 @@
             const subject = form.elements[2].value;
             const message = form.elements[3].value;
 
-            const mailtoUrl = `mailto:nhoc41551@gmail.com?subject=${encodeURIComponent(subject + " - from " + name)}&body=${encodeURIComponent("Sender Email: " + email + "\n\nMessage:\n" + message)}`;
-
+            const mailtoUrl = `mailto:nhoc41551@gmail.com?subject=${encodeURIComponent(subject + " - from " + name)}&body=${encodeURIComponent("Sender Name: " + name + "\nSender Email: " + email + "\n\nMessage Content:\n" + message)}`;
+            
             document.getElementById('formSuccess').classList.remove('hidden');
-
+            
             setTimeout(() => {
                 window.location.href = mailtoUrl;
             }, 800);
         }
     </script>
 </body>
-
 </html>
